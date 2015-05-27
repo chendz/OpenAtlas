@@ -20,6 +20,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
  * **/
 package com.openatlas.launcher.welcome;
 
+
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
