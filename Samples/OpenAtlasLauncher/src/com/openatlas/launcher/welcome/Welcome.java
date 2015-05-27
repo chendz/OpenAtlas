@@ -21,17 +21,17 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 package com.openatlas.launcher.welcome;
 
 
-import android.app.Activity;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
 
+import com.openatlas.android.lifecycle.BaseActivity;
 import com.openatlas.boot.Globals;
 import com.openatlas.launcher.R;
 
 
 
-public class Welcome extends Activity {
+public class Welcome extends BaseActivity {
 	WelcomeFragment mFragment;
     public static boolean isAtlasDexopted() {
         PackageInfo packageInfo = null;
