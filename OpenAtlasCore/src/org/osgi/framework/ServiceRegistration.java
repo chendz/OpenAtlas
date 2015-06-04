@@ -18,6 +18,8 @@ package org.osgi.framework;
 
 import java.util.Dictionary;
 
+import android.provider.SyncStateContract.Constants;
+
 /**
  * A registered service.
  * 
@@ -31,7 +33,6 @@ import java.util.Dictionary;
  * properties of the service or to unregister the service.
  * 
  * @see BundleContext#registerService(String[],Object,Dictionary)
- * @ThreadSafe
  * @version $Revision: 6361 $
  */
 
@@ -54,7 +55,7 @@ public interface ServiceRegistration {
 	 * Updates the properties associated with a service.
 	 * 
 	 * <p>
-	 * The {@link Constants#OBJECTCLASS} and {@link Constants#SERVICE_ID} keys
+	 * The OBJECTCLASS and SERVICE_ID keys
 	 * cannot be modified by this method. These values are set by the Framework
 	 * when the service is registered in the OSGi environment.
 	 * 
