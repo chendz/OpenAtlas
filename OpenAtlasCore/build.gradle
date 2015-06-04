@@ -2,12 +2,12 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'OpenAtlas'
+    bintrayRepo = 'OpenAtlas'
+    bintrayName = 'OpenAtlasCore'
 
     publishedGroupId = 'com.openatlas'
-    libraryName = 'OpenAtlas'
-    artifact = 'OpenAtlas'
+    libraryName = 'OpenAtlasCore'
+    artifact = 'OpenAtlasCore'
 
     libraryDescription = 'Android Plugin Framework base on OSGI'
 
