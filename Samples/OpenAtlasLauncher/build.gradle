@@ -1,8 +1,11 @@
 apply plugin: 'com.android.application'
-
+repositories {
+    jcenter()
+}
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
-    compile project(':OpenAtlasCore')
+    // compile project(':OpenAtlasCore')
+ compile 'com.openatlas:OpenAtlasCore:0.3.+'
     //compile 'com.android.support:appcompat-v7:22.1.+'
 }
 

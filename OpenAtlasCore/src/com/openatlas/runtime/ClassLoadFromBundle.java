@@ -127,6 +127,7 @@ public class ClassLoadFromBundle {
                                 return cls;
                             }
                         } catch (ClassNotFoundException e) {
+                        	e.printStackTrace();
                             throw new ClassNotFoundException(
                                     "Can't find class "
                                             + componet
